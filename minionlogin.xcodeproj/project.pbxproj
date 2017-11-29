@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		63AC3E4B1FC1C0820080EE06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC3E4A1FC1C0820080EE06 /* AppDelegate.swift */; };
-		63AC3E4D1FC1C0820080EE06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC3E4C1FC1C0820080EE06 /* ViewController.swift */; };
+		63AC3E4D1FC1C0820080EE06 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC3E4C1FC1C0820080EE06 /* LoginVC.swift */; };
 		63AC3E501FC1C0820080EE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AC3E4E1FC1C0820080EE06 /* Main.storyboard */; };
 		63AC3E521FC1C0820080EE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AC3E511FC1C0820080EE06 /* Assets.xcassets */; };
 		63AC3E551FC1C0820080EE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AC3E531FC1C0820080EE06 /* LaunchScreen.storyboard */; };
+		63AC3E5D1FC1C10D0080EE06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63AC3E5C1FC1C10D0080EE06 /* GoogleService-Info.plist */; };
+		63AC3E5F1FC1CD2D0080EE06 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC3E5E1FC1CD2D0080EE06 /* SignUpVC.swift */; };
+		63AC3E611FC1CE960080EE06 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC3E601FC1CE960080EE06 /* SuccessVC.swift */; };
+		A5C169753BF311DDFF508187 /* Pods_minionlogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E9AD44EE112E747A0A6686 /* Pods_minionlogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3841334556DD31F8FF9891C1 /* Pods-minionlogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minionlogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minionlogin/Pods-minionlogin.debug.xcconfig"; sourceTree = "<group>"; };
+		3DAA91A9F001D6DAC8B26B0E /* Pods-minionlogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minionlogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-minionlogin/Pods-minionlogin.release.xcconfig"; sourceTree = "<group>"; };
 		63AC3E471FC1C0820080EE06 /* minionlogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minionlogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AC3E4A1FC1C0820080EE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63AC3E4C1FC1C0820080EE06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63AC3E4C1FC1C0820080EE06 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		63AC3E4F1FC1C0820080EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63AC3E511FC1C0820080EE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63AC3E541FC1C0820080EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63AC3E561FC1C0820080EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AC3E5C1FC1C10D0080EE06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63AC3E5E1FC1CD2D0080EE06 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		63AC3E601FC1CE960080EE06 /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
+		84E9AD44EE112E747A0A6686 /* Pods_minionlogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minionlogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C169753BF311DDFF508187 /* Pods_minionlogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3047E2DA89952396054F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E9AD44EE112E747A0A6686 /* Pods_minionlogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63AC3E3E1FC1C0820080EE06 = {
 			isa = PBXGroup;
 			children = (
 				63AC3E491FC1C0820080EE06 /* minionlogin */,
 				63AC3E481FC1C0820080EE06 /* Products */,
+				A7196DA4EE91447F179F26B4 /* Pods */,
+				2D3047E2DA89952396054F06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				63AC3E4A1FC1C0820080EE06 /* AppDelegate.swift */,
-				63AC3E4C1FC1C0820080EE06 /* ViewController.swift */,
+				63AC3E4C1FC1C0820080EE06 /* LoginVC.swift */,
+				63AC3E5E1FC1CD2D0080EE06 /* SignUpVC.swift */,
+				63AC3E601FC1CE960080EE06 /* SuccessVC.swift */,
 				63AC3E4E1FC1C0820080EE06 /* Main.storyboard */,
 				63AC3E511FC1C0820080EE06 /* Assets.xcassets */,
 				63AC3E531FC1C0820080EE06 /* LaunchScreen.storyboard */,
 				63AC3E561FC1C0820080EE06 /* Info.plist */,
+				63AC3E5C1FC1C10D0080EE06 /* GoogleService-Info.plist */,
 			);
 			path = minionlogin;
+			sourceTree = "<group>";
+		};
+		A7196DA4EE91447F179F26B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3841334556DD31F8FF9891C1 /* Pods-minionlogin.debug.xcconfig */,
+				3DAA91A9F001D6DAC8B26B0E /* Pods-minionlogin.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63AC3E591FC1C0820080EE06 /* Build configuration list for PBXNativeTarget "minionlogin" */;
 			buildPhases = (
+				187AFDD3551B173F2C315D52 /* [CP] Check Pods Manifest.lock */,
 				63AC3E431FC1C0820080EE06 /* Sources */,
 				63AC3E441FC1C0820080EE06 /* Frameworks */,
 				63AC3E451FC1C0820080EE06 /* Resources */,
+				D6A7A962917CE19313AE405A /* [CP] Embed Pods Frameworks */,
+				03F13588A275D7EC4DAF36BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AC3E551FC1C0820080EE06 /* LaunchScreen.storyboard in Resources */,
+				63AC3E5D1FC1C10D0080EE06 /* GoogleService-Info.plist in Resources */,
 				63AC3E521FC1C0820080EE06 /* Assets.xcassets in Resources */,
 				63AC3E501FC1C0820080EE06 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +168,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03F13588A275D7EC4DAF36BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minionlogin/Pods-minionlogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		187AFDD3551B173F2C315D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-minionlogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A7A962917CE19313AE405A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-minionlogin/Pods-minionlogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minionlogin/Pods-minionlogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63AC3E431FC1C0820080EE06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63AC3E4D1FC1C0820080EE06 /* ViewController.swift in Sources */,
+				63AC3E611FC1CE960080EE06 /* SuccessVC.swift in Sources */,
+				63AC3E4D1FC1C0820080EE06 /* LoginVC.swift in Sources */,
+				63AC3E5F1FC1CD2D0080EE06 /* SignUpVC.swift in Sources */,
 				63AC3E4B1FC1C0820080EE06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +371,7 @@
 		};
 		63AC3E5A1FC1C0820080EE06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3841334556DD31F8FF9891C1 /* Pods-minionlogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +386,7 @@
 		};
 		63AC3E5B1FC1C0820080EE06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAA91A9F001D6DAC8B26B0E /* Pods-minionlogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
